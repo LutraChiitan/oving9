@@ -1,2 +1,2 @@
-# oving-9
+# oving9
 Øving 9 DAT120 Høsten 2021
