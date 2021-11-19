@@ -12,6 +12,8 @@ class Spørsmål:
         self.alternativ=alternativ
         self.korrekt_svar=korrekt_svar
         
+    
+        
     def __str__(self):
         res=self.spørsmål + "\n"
         for i, alt in enumerate(self.alternativ):
@@ -31,6 +33,14 @@ print(spm1.sjekk_svar())
 spm2=Spørsmål("Hvordan er vestlandsværet?", ["Regnfylt", "Varmt", "Tørt"], 1)
 print(spm2)
 print(spm2.sjekk_svar())
+
+qa = [spm1, spm2]
+
+for spm in qa:
+    print(spm)
+    print(spm.sjekk_svar())
+
+
 
 
 
